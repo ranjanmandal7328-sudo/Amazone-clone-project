@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #131921, #232f3d);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Dashboard Box */
+.dashboard-container {
+    width: 400px;
+    background: #ffffff;
+    padding: 35px;
+    border-radius: 12px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.3);
+    text-align: center;
+}
+
+/* Welcome Text */
+.dashboard-container h1 {
+    color: #131921;
+    font-size: 28px;
+    margin-bottom: 25px;
+}
+
+/* Logout Button */
+.dashboard-container button {
+    width: 100%;
+    padding: 12px;
+    background: #ff9900;
+    border: none;
+    border-radius: 6px;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.dashboard-container button:hover {
+    background: #e68a00;
+}
+
+/* Small note text (optional) */
+.dashboard-container p {
+    margin-top: 15px;
+    font-size: 13px;
+    color: #555;
+}
