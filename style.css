@@ -14,16 +14,19 @@ body {
     background-color: rgb(19, 25, 33);
     height: 60px;
     color: white;
+    
 }
 
 .container-container-header{
     display:flex;
     justify-content: space-evenly;
+    
 
 }
 .nav{
     display: flex;
     justify-content: space-evenly;
+    
 }
 
 /* layout**/
@@ -32,12 +35,14 @@ body {
     /* background-color: red; */
     height: 100%;
     margin: auto;
+    
 
 }
 
 .container-header {
     display: flex;
     align-items: center;
+    
 }
 
 /**logo***/
@@ -46,19 +51,29 @@ body {
     display: flex;
     align-items: center;
     font-size: 1.1rem;
+    height:40px;
+    width:100px;
+    background-image: url("amazon.jpg");
+    background-size:cover;
+    margin:10px 5px ;
+    border-radius:4px;
+  
 
 
     /* overflow: hidden; */
 }
 
 .logo {
-    width: 120px;
-    height: 50px;
-    background: url('amazone_logo.jpg');
-    background-repeat: no-repeat;
+  
+    height: 40px;
+    width:100px;
+     background-image:url("amazon.jpg");
+    background-size: cover; 
+     background-repeat: no-repeat;
     background-position-y: -40px;
     overflow: hidden;
 }
+    
 
 .dotin {
     position: relative;
@@ -73,7 +88,17 @@ body {
 
 .border-white:hover {
     border: 1.5px solid #ffffff;
+  
+
 }
+
+
+/* .address-container{
+    height:40px;
+    width:100px;
+    background-image: url("amazon.jpg");
+    background-size:cover; */
+
 
 /***********addresss************/
 .address-container {
@@ -87,12 +112,17 @@ body {
 .icon-address {
     display: flex;
     align-items: center;
+    font-size:15px;
 }
 
 .hello {
     font-size: 0.8rem;
     padding-left: 20px;
     color: #ccc;
+    /* background-image:url("amazon.jpg");
+    height:40px;
+    width:100px;
+    background-size: cover; */
 }
 
 .icon-location {
@@ -103,7 +133,8 @@ body {
 /***search-container****/
 .search-container {
     background-color: red;
-    margin-left: 25px;
+    margin-left:20px ;
+    margin-top:10px;
     width: 640px;
     display: flex;
     height: 40px;
@@ -119,6 +150,7 @@ body {
 .search-select {
     width: 60px;
     border: none;
+    text-align:center;
     background-color: rgb(230, 227, 227);
 }
 
@@ -144,7 +176,11 @@ body {
 
 /***lauguage section*/
 .language-container {
-    margin-left: 25px;
+    margin-left: 20px;
+    margin-bottom:10px;
+    margin-top:10px;
+    font-size:16px;
+    padding:none;
 }
 
 .language-container p {
@@ -196,6 +232,8 @@ body {
 .cart-container {
     font-size: 1.1rem;
     display: flex;
+    margin:5px 5px;
+
 }
 
 .cart-container i {
