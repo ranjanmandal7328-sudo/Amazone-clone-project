@@ -55,7 +55,7 @@ body {
     width:100px;
     background-image: url("amazon.jpg");
     background-size:cover;
-    margin:10px 5px ;
+    margin:10px 0 ;
     border-radius:4px;
   
 
@@ -63,7 +63,7 @@ body {
     /* overflow: hidden; */
 }
 
-.logo {
+/* .logo {
   
     height: 40px;
     width:100px;
@@ -72,7 +72,7 @@ body {
      background-repeat: no-repeat;
     background-position-y: -40px;
     overflow: hidden;
-}
+} */
     
 
 .dotin {
@@ -503,7 +503,7 @@ body {
 .card-product-btn{
     font-size: 14px;
     align-self: flex-start;
-    margin: 7px 10px; 
+    margin: 10px 10px; 
     padding-left: 0;
     background-color: transparent;
     border:none;

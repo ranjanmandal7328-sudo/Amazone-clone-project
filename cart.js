@@ -71,8 +71,22 @@ document.getElementById("checkoutBtn")
 
     localStorage.removeItem("cart");
 
-    alert("Order Placed Successfully!");
+    // alert("Order Placed Successfully!");
 
     location.reload();
 
+});
+
+// chart gpt
+const checkoutBtn = document.getElementById("checkoutBtn");
+
+checkoutBtn.addEventListener("click", function () {
+    window.location.href = "checkout.html";
+});
+const form = document.getElementById("shippingForm");
+
+form.addEventListener("submit", function(event) {
+    event.preventDefault();
+
+    window.location.href = "paymentsucc.html";
 });
