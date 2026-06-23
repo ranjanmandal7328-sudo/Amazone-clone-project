@@ -35,8 +35,8 @@ function displayCart() {
 
                 <h3>${item.price}</h3>
 
-                <button onclick="removeItem(${index})">
-                    Remove
+                <button onclick="removeItem(${index})"> 
+                    Remove 
                 </button>
 
             </div>

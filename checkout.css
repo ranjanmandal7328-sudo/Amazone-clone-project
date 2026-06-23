@@ -1,50 +1,53 @@
-
-  body{
-         height:100vh;
-         width:100vw;
-    background-color: rgb(163, 146, 48);
-     display:flex;
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: antiquewhite;
+    display: flex;
     justify-content: center;
     align-items: center;
-   
-  }
+}
 
-.box{
-    height:550px;
-    width:500px;
-    background-color: antiquewhite;
-     /* border:2px solid blue;
-    display:flex;
-    justify-content: center; */
-    padding:20px;
-    margin:20px;
-    border:2px solid;
-    border-radius:10px; 
-    box-shadow:0 3px 2px 2px;
+.box {
+    height: 680px;
+    width: 600px;
+    background-color: aliceblue;
+    border: 2px solid black;
+    border-radius: 10px;
 }
-.input input{
-   height:30px;
-   width:50%;
-   margin:3px;
-   border-radius:5px;
+
+.input {
+    margin: 20px;
+
 }
-.box1 input {
-    margin:5px;
+
+
+.input input {
+    height: 40px;
+    width: 550px;
+    border-radius: 5px;
+    margin: 3px;
 }
+
+textarea {
+    height: 60px;
+    width: 550px;
+    margin: 3px;
+
+
+}
+/* //payment details */
 .box1{
-    margin:15px;
+      margin: 20px;;
 }
- #ctc input{
-    height:200px;
-    width:500px;
+.box1 input{
+    margin:10px;
 }
 #btn button{
-    height:40px;
-    width:200px;
-    border-radius:5px;
-    margin-left:130px;
-    background-color:rgb(177, 188, 58);
-    font-size:20px;
-    font-weight:300px;
-    
+        height:40px;
+        width: 200px;
+        margin-left:180px;
+        font-size:20px;
+        background-color: aqua;
+        border-radius:4px;
+      
 }
